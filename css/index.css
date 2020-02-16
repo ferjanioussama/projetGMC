@@ -1,0 +1,157 @@
+.carousel-pic {
+    height: 550px;
+}
+
+#text {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: block;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+
+.card img {
+    height: 200px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-container form {
+    border: 0.1px solid black;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.content {
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+#h5 {
+    font-family: 'Unica One', cursive;
+    text-shadow: 0 2px 0 black, 0 -2px 0 black;
+
+}
+
+#h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #008793;
+}
+
+/*  font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Scheherazade', serif;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Unica One', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Cinzel Decorative', cursive;
+*/
+
+#navbarSupportedContent {
+    margin: 0 auto;
+    width: 700px;
+}
+
+ul.navbar-nav {
+    margin-left: 75%;
+}
+
+.form-control {
+    background-color: #B8D3CB;
+}
+
+/*footer*/
+
+.footer {
+    background: #12598E;
+    color: white;
+
+}
+
+.about-company {
+
+    font-size: 20px;
+
+
+}
+
+a {
+    color: white;
+    transition: color .2s;
+    size: 20px;
+}
+
+a:hover {
+    color: #4180CB
+}
+
+}
+
+.location {
+
+    font-size: 18px;
+
+
+}
+
+.copyright p {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+/* */
+#Visit {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    color: #12598E;
+}
+
+#amine {
+    width: 400px;
+    height: 500px;
+
+}
+
+.content img {
+    margin-right: 0px;
+}
+
+.flotte {
+    float: left;
+    margin-right: 50px;
+}
+
+#get {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color: #008793;
+}
+
+.card-title {
+    color: #008793;
+    font-family: 'Orbitron', sans-serif;
+    ;
+}

@@ -1,0 +1,133 @@
+#contact {
+    font-size: 60px;
+    font-family: 'Fugaz One', cursive;
+    margin-bottom: 220px;
+    margin-right: 700px;
+    font-weight: bolder;
+    text-shadow: 0 4px 0 black, 0 -4px 0 black;
+}
+
+
+.carousel-pic {
+    height: 550px;
+    color: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+
+}
+
+.carousel-picture {
+    height: 550px;
+    filter: blur(4px);
+
+
+}
+
+#text {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: block;
+}
+
+.flotte {
+    float: left;
+    margin-right: 50px;
+}
+
+#vid {
+    margin-left: 50px;
+}
+
+#ex {
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    ;
+}
+
+#descrip {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+h3 {
+    margin-left: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+
+}
+
+#title {
+    font-family: 'Cinzel Decorative', cursive;
+    margin-left: 30px;
+    color: #12598E;
+}
+
+/* font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Scheherazade', serif;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Unica One', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Cinzel Decorative', cursive;
+
+*/
+
+#h3txt {
+    color: #008793;
+    ;
+}
+
+
+/*footer*/
+
+.footer {
+    background: #12598E;
+    color: white;
+
+}
+
+.about-company {
+
+    font-size: 20px;
+
+
+}
+
+a {
+    color: white;
+    transition: color .2s;
+    size: 20px;
+}
+
+a:hover {
+    color: #4180CB
+}
+
+}
+
+.location {
+
+    font-size: 18px;
+
+
+}
+
+.copyright p {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+ul.navbar-nav {
+    margin-left: 75%;
+}
+
+/* */

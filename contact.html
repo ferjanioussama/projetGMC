@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+
+
+
+
+    <!-- icon script-->
+    <script src="https://kit.fontawesome.com/7be25e3757.js" crossorigin="anonymous"></script>
+
+
+    <!-- icon script-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Bangers|Caveat|Cinzel+Decorative|Dancing+Script|Fugaz+One|Josefin+Sans|Julius+Sans+One|Montserrat|Orbitron|Oswald|Scheherazade|Sigmar+One|Tajawal|Unica+One&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand"><img src="..." alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="indext.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Training Programs
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="training.html">Programs</a>
+                        <a class="dropdown-item" href="media.html">Media</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="res/contacts.jpg" class="d-block w-100 carousel-picture" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 id="contact">CONTACT</h1>
+                    <h3 id="texth">FEEL FREE TO GET IN TOUCH TO FIND OUT HOW WE CAN HELP YOU SOLVE YOUR STRENGTH
+                        OR
+                        FITNESS
+                        GOALS.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <center>
+        <div class="form-container">
+            <form id="fireForm">
+                <div class="form-group input">
+                    <label for="exampleInputEmail1" id="labeltxt">Name*</label>
+                    <input required type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                        placeholder="Enter name">
+
+                </div>
+                <div class="form-group input">
+                    <label for="exampleInputEmail1" id="labeltxt">Email*</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+
+                </div>
+                <div class="form-group input">
+                    <label for="exampleInputEmail1" id="labeltxt">Phone number </label>
+                    <input type="tel" class="form-control" id="phone" aria-describedby="Phone number"
+                        placeholder="Phone number">
+
+                </div>
+                <div class="form-group input">
+                    <label for="exampleInputEmail1" id="labeltxt">Message</label><br>
+                    <textarea class="form-control" id="textarea" cols="50" rows="10"></textarea>
+                </div>
+
+                <br>
+                <button type="submit" value="submit" id="submitButton" class="btn btn-primary">Submit</button>
+            </form>
+    </center>
+    <div class="mt-5 pt-5 pb-5 footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-5 col-xs-12 about-company">
+                    <h2>Just Be Fit Be Strong!</h2>
+                    <p class="pr-5 text-white-50">WE CAN HELP YOU SOLVE YOUR STRENGTH OR FITNESS GOALS </p>
+                    <p><a href="https://www.facebook.com/ocamasimo"><i class="fab fa-facebook" id="icon"></i></i></a>
+                        <a href="https://www.instagram.com/oussama_ferjani/?hl=fr"><i class="fab fa-instagram"
+                                id="icon"></i></i></a></p>
+                </div>
+
+
+                <div class="col-lg-4 col-xs-12 location">
+                    <h4 class="mt-lg-0 mt-sm-4">Contacts</h4>
+                    <p class="mb-0"><i class="fa fa-phone mr-3"></i>(216) 92 666 165</p>
+                    <p><i class="fa fa-envelope-o mr-3"></i>ferjani.osama@gmail.com</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col copyright">
+                    <center>
+
+
+                        <p class=""><small class="text-white-50">© 2020. All Rights Reserved.</small></p>
+                    </center>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/fire.js"></script>
+
+</body>

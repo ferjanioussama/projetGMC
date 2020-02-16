@@ -1,0 +1,193 @@
+.carousel-picture {
+    height: 550px;
+    filter: blur(2px);
+
+}
+
+#contact {
+    font-size: 60px;
+    font-family: 'Fugaz One', cursive;
+    justify-content: center;
+    margin-bottom: 150px;
+    text-shadow: 0 4px 0 black, 0 -4px 0 black;
+
+}
+
+#texth {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-shadow: 0 3px 0 black, 0 -3px 0 black;
+
+
+}
+
+.content {
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+
+#trainingtxt {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+/*footer*/
+
+.footer {
+    background: #12598E;
+    color: white;
+
+}
+
+.about-company {
+
+    font-size: 20px;
+
+
+}
+
+a {
+    color: white;
+    transition: color .2s;
+    size: 20px;
+}
+
+a:hover {
+    color: #4180CB
+}
+
+}
+
+.location {
+
+    font-size: 18px;
+
+
+}
+
+.copyright p {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+/* */
+#exercices {
+    font-size: 18px;
+    color: #008793;
+}
+
+#ab {
+    color: rgb(140, 167, 192);
+}
+
+#titre {
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: #12598E;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#definition {
+    font-style: italic;
+    text-decoration: underline;
+    color: darkred;
+}
+
+#expl {
+    text-decoration: underline;
+    color: midnightblue;
+}
+
+#calorie {
+    text-decoration: underline;
+}
+
+#quote {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#question {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul.navbar-nav {
+    margin-left: 75%;
+}
+
+
+#aliments {
+    text-decoration: underline;
+    color: crimson;
+
+}
+
+#proteine {
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    ;
+}
+
+#trainigtips {
+    font-weight: bold;
+    color: darkblue;
+}
+
+#equation {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+#w {
+    font-family: 'Caveat', cursive;
+
+
+}
+
+
+/* ANIMATION
+
+<div data-aos="fade-up" data-aos-duration="1500">
+
+</div> */
+
+
+/*#question {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    border: solid;
+    border-radius: 20px/10px;
+    border-width: 3px;
+    border-style: inset;
+}
+
+*/
+
+/*  font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Scheherazade', serif;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Unica One', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Cinzel Decorative', cursive;
+*/
