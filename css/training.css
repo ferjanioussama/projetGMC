@@ -156,6 +156,36 @@ ul.navbar-nav {
 
 
 }
+#myspan{
+    color: blue;
+}
+
+#repetitionform label {
+    display: block;
+
+}
+
+input {
+    border: 0.5px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    -webkit-appearance: none;
+
+}
+
+input:focus {
+    border: 0.5px solid #4180CB;
+    border-radius: 15px;
+    -webkit-appearance: none;
+    outline: none;
+
+}
+#userperfectrep{ 
+    font-size: 20px;
+    display: none;
+    height: 60px;
+    width: 400px;
+}
 
 
 /* ANIMATION
