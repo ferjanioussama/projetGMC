@@ -214,6 +214,14 @@ input:focus {
     bottom: 150px
 }
 
+#imagelegs {
+    width: 40%;
+    height: 350px;
+    position: relative;
+    left: 520px;
+    bottom: 270px
+}
+
 #image {
     width: 50%;
     height: 50%;
@@ -233,6 +241,19 @@ input:focus {
     font-size: 20px;
 
 }
+
+#exple {
+    font-weight: bold;
+}
+
+#viewmore {
+    font-size: 100%;
+    color: blue;
+    text-decoration: none;
+}
+#viewmore:hover{
+    color: rgb(0, 183, 255);
+    text-decoration: underline;}
 
 /* ANIMATION
 
