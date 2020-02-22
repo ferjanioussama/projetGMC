@@ -32,6 +32,14 @@
     margin: 20px;
 
 }
+#logo{
+    width: 70px;
+    height: 40px;
+background-color: #4180CB;}
+#logofooter{
+    width: 20px;
+    height: 20px;
+}
 
 .content {
     justify-content: center;

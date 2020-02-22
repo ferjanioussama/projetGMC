@@ -235,6 +235,10 @@ input:focus {
     font-weight: bold;
     color: #FF0000;
 }
+#logofooter{
+    width: 20px;
+    height: 20px;
+}
 
 .descrip {
     font-family: 'Josefin Sans', sans-serif;

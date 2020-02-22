@@ -26,7 +26,10 @@
     margin-right: 200px;
     display: block;
 }
-
+#logofooter{
+    width: 20px;
+    height: 20px;
+}
 .flotte {
     float: left;
     margin-right: 50px;
